@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset= "utf-8">
+<title>Tayelolu Oyemakinwa - Contact </title>
+<link rel="icon" href="image/favicon-32x32.png" sizes="32x32"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/styles.production.css">
+</head>
+
+<body>
+<header class="page-header">
+  <!-- Add your Portrait here -->
+  <img src="./image/logo.png" alt="this is the logo representing Tayelolu Oyemakinwa" class="page-header_item">
+  <nav class="main-navigation page-header_item">
+    <ul role="menubar" class="navigation-list">
+      <li role="presentation">
+        <a href="index.html" role="menuitem">Home</a>
+      </li>
+      <li>
+          <a href="about.html" role="menuitem">About</a>
+      </li>
+      <li>
+        <a href="#" role="menuitem">Contact</a>
+      </li>
+      <li role="presentation">
+        <a href="work.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Work</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<div>
+  <h1 id="Contact Details">Contact Details</h1>
+  <p>Address: Lajaakorvenkuja 6b 15 01620 vantaa, Finland</p>
+  <p>Telephone: <a href="tel:+358449827791">+358449827791</a></p>
+  <p>Email: <a href="mailto:toyemakinwa@yahoo.com">toyemakinwa@yahoo.com</a></p>
+  <p>Skype: <a href="skype:TeeA">TeeA</a></p>
+</div>
+    <!-- Call-to-action link -->
+<form action="/login-form-action" method="post" class="form__title" id="contact form">
+  <div>
+    <label class="standard-label" for="contact-email">Email:</label>
+    <input type="email" id="contact-email" required>
+  </div>
+  <div>
+    <label class="standard-label" for="Telephone">Telephone:</label>
+    <input type="tel" id="Telephone" name="Telephone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}">
+  </div>
+  <div>
+    <label class="standard-label" for="Message">Message:</label>
+    <textarea maxlength="240" id="Message" required></textarea>
+    <input type="submit" name="Send Message">
+  </div>
+</form>
+</main>
+
+<footer class="page-footer">
+  <p>Find me on</p>
+  <div class="social-media">
+    <a href="github"><img src="image/github_icon.svg" alt="github" width="30" height="30"></a>
+    <a href="twitter"><img src="image/twitter_icon.svg" alt="twitter" width="30" height="30"></a>
+    <a href="linkedln"><img src="image/linkedln_icon.svg" alt="linkedln" width="30" height="30"></a>
+  </div>
+</footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+</html>
