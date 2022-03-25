@@ -20,7 +20,9 @@ Secondary Color (Orange): #e0b354;
   --tertiary-color: #e0b354;
   --real-color: #2b2b2b;
   --fake-color: #d3d3d3;
-  --mother-color: #ffd6cc;
+  --mother-color: #f5f5dc;
+  --logo-color: #a4b198;
+  --image-color: #d5dc72;
 }
 *{
   padding: 0;
@@ -128,6 +130,10 @@ button:focus,
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 20px;
+  background-color: var(--logo-color);
+}
+.page-header_item{
+  background-color: var(--image-color);
 }
 .navigation-list{
   list-style-type: none;
